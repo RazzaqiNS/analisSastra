@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1uBttuhlTYd9Pm5HFZ2D9FuKReFAHRpxS
 """
 
-!pip install nltk
-!pip install spacy
-!python -m spacy download de_core_news_sm
-!pip install streamlit
 
 import nltk
 nltk.download('punkt_tab')
